@@ -5,21 +5,12 @@ So first of all we use yarn for all the version dependencies
 
 "yarn install"
 
-The version of node required
-
-> = 16.0.0 && <= 17.0.0
-
 Installation
 
-For Windows: you MUST start the project by running Git Bash.
 
 Execute the following command in the root directory of the project:
 
-"yarn dev"
-
-Open another terminal, and execute the following command in the root directory of the project:
-
-"yarn deploy"
+"yarn dev" and "yarn deploy"
 
 Use the local host url to run the website on a chrome based browser.
 
@@ -29,4 +20,3 @@ After the website is loaded, go to the homepage and add the loyalty points token
 
 DONE.
 
-If testing in local environment, please make sure to have MetaMask installed and connected to localhost:8545 , and set chainId to 31337.
